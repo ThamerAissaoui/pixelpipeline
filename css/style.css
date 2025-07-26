@@ -66,7 +66,9 @@ figure{
 
 .container{
 	position: relative;
+
 }
+
 
 .form-control{
 	border-radius: 0;
@@ -155,8 +157,13 @@ textarea.form-control{
 	text-transform: uppercase;
 	font-size: 45px;	
 	position: relative;
-	line-height: 1.4em;
-	margin-bottom: 40px;
+
+}
+
+.main-head h2{
+	text-transform: uppercase;
+	position: relative;
+
 }
 
 .main-head span{
@@ -529,4 +536,11 @@ RESPONSIVE
 	max-width: 800px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.blurred-text-container {
+  background: rgba(255, 255, 255, 0.2); /* translucent white */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
 }
